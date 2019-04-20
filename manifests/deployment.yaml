@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mxnet-operator
-        image: mxjob/mxnet-operator:v1beta1
+        image: 895855239481.dkr.ecr.us-west-2.amazonaws.com/mxnet-dt-operator:latest
         imagePullPolicy: Always
         env:
         - name: MY_POD_NAMESPACE
