@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
-	kubeflow "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/kubeflow"
+	versioned "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
+	kubeflow "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/kubeflow"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"

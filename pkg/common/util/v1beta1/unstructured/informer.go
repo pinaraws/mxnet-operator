@@ -12,8 +12,8 @@ import (
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/tools/cache"
 
-	informer "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/kubeflow/v1beta1"
-	lister "github.com/kubeflow/mxnet-operator/pkg/client/listers/kubeflow/v1beta1"
+	informer "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/kubeflow/v1beta1"
+	lister "github.com/pinaraws/mxnet-operator/pkg/client/listers/kubeflow/v1beta1"
 )
 
 type UnstructuredInformer struct {

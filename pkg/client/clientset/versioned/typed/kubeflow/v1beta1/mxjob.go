@@ -17,8 +17,8 @@
 package v1beta1
 
 import (
-	v1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
-	scheme "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	scheme "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

@@ -20,8 +20,8 @@ import (
 
 	"k8s.io/api/core/v1"
 
-	mxv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
-	"github.com/kubeflow/mxnet-operator/pkg/common/util/v1beta1/testutil"
+	mxv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	"github.com/pinaraws/mxnet-operator/pkg/common/util/v1beta1/testutil"
 )
 
 func TestFailed(t *testing.T) {

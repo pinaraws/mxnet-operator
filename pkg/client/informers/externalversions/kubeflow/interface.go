@@ -19,8 +19,8 @@
 package kubeflow
 
 import (
-	internalinterfaces "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/kubeflow/v1beta1"
+	internalinterfaces "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/kubeflow/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

@@ -19,7 +19,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	mxv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	mxv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
 )
 
 // ValidateBetaOneMXJobSpec checks that the v1beta1.MXJobSpec is valid.

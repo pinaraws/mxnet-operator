@@ -20,8 +20,8 @@ import (
 	"github.com/onrik/logrus/filename"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kubeflow/mxnet-operator/cmd/mxnet-operator.v1beta1/app"
-	"github.com/kubeflow/mxnet-operator/cmd/mxnet-operator.v1beta1/app/options"
+	"github.com/pinaraws/mxnet-operator/cmd/mxnet-operator.v1beta1/app"
+	"github.com/pinaraws/mxnet-operator/cmd/mxnet-operator.v1beta1/app/options"
 )
 
 func init() {

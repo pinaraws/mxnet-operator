@@ -20,8 +20,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	mxv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
-	"github.com/kubeflow/mxnet-operator/pkg/common/util/v1beta1/testutil"
+	mxv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	"github.com/pinaraws/mxnet-operator/pkg/common/util/v1beta1/testutil"
 )
 
 func TestGenOwnerReference(t *testing.T) {

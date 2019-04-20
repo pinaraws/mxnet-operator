@@ -23,10 +23,10 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/kubernetes/pkg/controller"
 
-	"github.com/kubeflow/mxnet-operator/cmd/mxnet-operator.v1beta1/app/options"
-	mxv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1btea1"
-	mxjobclientset "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned"
-	"github.com/kubeflow/mxnet-operator/pkg/common/util/v1beta1/testutil"
+	"github.com/pinaraws/mxnet-operator/cmd/mxnet-operator.v1beta1/app/options"
+	mxv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1btea1"
+	mxjobclientset "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned"
+	"github.com/pinaraws/mxnet-operator/pkg/common/util/v1beta1/testutil"
 )
 
 func TestAddService(t *testing.T) {

@@ -17,9 +17,9 @@
 package fake
 
 import (
-	clientset "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned"
-	kubeflowv1beta1 "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned/typed/kubeflow/v1beta1"
-	fakekubeflowv1beta1 "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned/typed/kubeflow/v1beta1/fake"
+	clientset "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned"
+	kubeflowv1beta1 "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned/typed/kubeflow/v1beta1"
+	fakekubeflowv1beta1 "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned/typed/kubeflow/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

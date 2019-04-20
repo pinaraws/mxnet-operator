@@ -17,7 +17,7 @@ package validation
 import (
 	"testing"
 
-	mxv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	mxv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
 
 	"k8s.io/api/core/v1"
 )

@@ -21,10 +21,10 @@ package v1beta1
 import (
 	time "time"
 
-	mxnetv1beta1 "github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1"
-	versioned "github.com/kubeflow/mxnet-operator/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/kubeflow/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/kubeflow/mxnet-operator/pkg/client/listers/kubeflow/v1beta1"
+	mxnetv1beta1 "github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1"
+	versioned "github.com/pinaraws/mxnet-operator/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/pinaraws/mxnet-operator/pkg/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/pinaraws/mxnet-operator/pkg/client/listers/kubeflow/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

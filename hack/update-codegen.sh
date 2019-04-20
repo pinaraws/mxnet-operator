@@ -30,13 +30,13 @@ CODEGEN_PKG=${CODEGEN_PKG:-$(cd ${SCRIPT_ROOT}; ls -d -1 ./vendor/k8s.io/code-ge
 #                  instead of the $GOPATH directly. For normal projects this can be dropped.
 cd ${SCRIPT_ROOT}
 ${CODEGEN_PKG}/generate-groups.sh "defaulter,deepcopy,client,informer,lister" \
- github.com/kubeflow/mxnet-operator/pkg/client github.com/kubeflow/mxnet-operator/pkg/apis \
+ github.com/pinaraws/mxnet-operator/pkg/client github.com/pinaraws/mxnet-operator/pkg/apis \
  mxnet:v1beta1 \
  --go-header-file hack/boilerplate/boilerplate.go.txt
 
 # Notice: The code in code-generator does not generate defaulter by default.
 echo "Generating defaulters for v1beta1"
-${GOPATH}/bin/defaulter-gen  --input-dirs github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1 \
+${GOPATH}/bin/defaulter-gen  --input-dirs github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1 \
   -O zz_generated.defaults \
   --go-header-file hack/boilerplate/boilerplate.go.txt \
-  --output-package github.com/kubeflow/mxnet-operator/pkg/apis/mxnet/v1beta1
+  --output-package github.com/pinaraws/mxnet-operator/pkg/apis/mxnet/v1beta1
